@@ -1,0 +1,9 @@
+# Global admin styling.
+global-admin-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/variables.css: {}
+    theme:
+      css/theme/webtheme-admin.theme.style.css: { }
+

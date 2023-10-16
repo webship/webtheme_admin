@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - webtheme_amdin
+id: webtheme_amdin_local_actions
+theme: webtheme_amdin
+region: content
+weight: -10
+provider: null
+pluwebtheme_amdin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

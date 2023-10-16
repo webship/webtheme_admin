@@ -1,0 +1,3 @@
+webtheme_admin.settings:
+  type: gin.settings
+  label: 'Webtheme Admin settings'

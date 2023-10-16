@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - webtheme_amdin
+id: webtheme_amdin_page_title
+theme: webtheme_amdin
+region: header
+weight: -30
+provider: null
+pluwebtheme_amdin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

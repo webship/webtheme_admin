@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - webtheme_amdin
+id: webtheme_amdin_messages
+theme: webtheme_amdin
+region: highlighted
+weight: 0
+provider: null
+pluwebtheme_amdin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

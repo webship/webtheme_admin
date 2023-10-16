@@ -1,0 +1,22 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - webtheme_admin_admin
+id: webtheme_admin_admin_site_branding
+theme: webtheme_admin_admin
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

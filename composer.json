@@ -1,0 +1,27 @@
+{
+  "name": "drupal/webtheme_admin",
+  "description": "A modern administration theme for Webship admin standard websites. Based on the Claro Drupal core admin theme.",
+  "type": "drupal-theme",
+  "homepage": "https://www.drupal.org/project/webtheme_admin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Webship",
+      "homepage": "https://www.drupal.org/webship",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "http://drupal.org/project/issues/webtheme_admin",
+    "source": "http://cgit.drupalcode.org/webtheme_admin"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/core": "~10.0"
+  }
+}
