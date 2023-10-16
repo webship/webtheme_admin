@@ -1,10 +1,14 @@
-name: "Webtheme Admin"
+name: Webtheme Admin
 type: theme
 base theme: gin
 description: "A modern administration theme for webship standard websites. Based on the Gin Admin Theme and Claro Drupal core admin theme."
 alt text: "Screenshot of Webtheme Admin, Webship administration theme."
 core_version_requirement: ~10.1.0
-package: "Webship"
+
+libraries:
+  - webtheme_admin/global-admin-styling
+
+# Regions
 regions:
   header: 'Header'
   pre_content: 'Pre-content'
@@ -17,8 +21,7 @@ regions:
   sidebar_first: 'First sidebar'
 regions_hidden:
   - sidebar_first
-libraries:
-  - webtheme_admin/global-admin-styling
+
 
 
 
