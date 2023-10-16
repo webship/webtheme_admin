@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - webtheme_admin_admin
-id: webtheme_admin_admin_social_media_menu
-theme: webtheme_admin_admin
+    - webtheme_admin
+id: webtheme_admin_social_media_menu
+theme: webtheme_admin
 region: footer_bottom
 weight: -7
 provider: null

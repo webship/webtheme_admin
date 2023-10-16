@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - webtheme_admin_admin
-id: webtheme_admin_admin_main_menu
-theme: webtheme_admin_admin
+    - webtheme_admin
+id: webtheme_admin_main_menu
+theme: webtheme_admin
 region: primary_menu
 weight: 0
 provider: null

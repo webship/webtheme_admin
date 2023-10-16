@@ -6,16 +6,16 @@ dependencies:
   module:
     - block_content
   theme:
-    - webtheme_admin_admin
-id: webtheme_admin_admin_footer_logo
-theme: webtheme_admin_admin
+    - webtheme_admin
+id: webtheme_admin_footer_logo
+theme: webtheme_admin
 region: footer_bottom
 weight: -8
 provider: null
 plugin: 'block_content:71152dfa-f7a4-4df0-863b-db6d4e6cabc9'
 settings:
   id: 'block_content:71152dfa-f7a4-4df0-863b-db6d4e6cabc9'
-  label: 'webtheme_admin_admin footer logo'
+  label: 'webtheme_admin footer logo'
   label_display: '0'
   provider: block_content
   status: true
