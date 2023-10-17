@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - webtheme_amdin
-id: webtheme_amdin_secondary_local_tasks
-theme: webtheme_amdin
+    - webtheme_admin
+id: webtheme_admin_secondary_local_tasks
+theme: webtheme_admin
 region: pre_content
-weight: 0
+weight: -3
 provider: null
-pluwebtheme_amdin: local_tasks_block
+plugin: local_tasks_block
 settings:
   id: local_tasks_block
   label: 'Secondary tabs'
-  provider: core
   label_display: '0'
+  provider: core
   primary: false
   secondary: true
 visibility: {  }

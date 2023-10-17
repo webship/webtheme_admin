@@ -4,16 +4,16 @@ dependencies:
   module:
     - system
   theme:
-    - webtheme_amdin
-id: webtheme_amdin_breadcrumbs
-theme: webtheme_amdin
+    - webtheme_admin
+id: webtheme_admin_breadcrumbs
+theme: webtheme_admin
 region: breadcrumb
 weight: 0
 provider: null
-pluwebtheme_amdin: system_breadcrumb_block
+plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
   label: Breadcrumbs
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }
