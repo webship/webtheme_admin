@@ -62,6 +62,30 @@ body.path-admin .panel.dashboard-block p {
   width: 65%;
 }
 
+.gherkin-script{
+
+  & .views-accordion-header{
+    text-transform: capitalize;
+    display: flex;
+
+    & .ui-accordion-header-icon{
+      margin-top: 0px;
+      margin-right: 3px
+    }
+  }
+
+  & .ui-state-active{
+    background:#358FC8 ;
+    color:#fff;
+    
+    
+
+    & .ui-icon {
+      background-image: url(../../images/ui-icons_ffffff_256x240.png)/*{iconsActive}*/;
+    }
+  }
+}
+
 @media screen and (max-width: 81.25rem) {
   .node-form div.autocomplete-deluxe-container {
     width: 100%;
