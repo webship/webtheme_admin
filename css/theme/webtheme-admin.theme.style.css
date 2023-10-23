@@ -81,6 +81,10 @@ body.path-admin .panel.dashboard-block p {
       background-image: url(../../images/ui-icons_ffffff_256x240.png)/*{iconsActive}*/;
     }
 
+.gherkin-script .dropbutton-wrapper{
+    float: right;
+  }
+
 @media screen and (max-width: 81.25rem) {
   .node-form div.autocomplete-deluxe-container {
     width: 100%;
