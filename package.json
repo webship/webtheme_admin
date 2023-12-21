@@ -1,6 +1,6 @@
 {
   "name": "webtheme_admin",
-  "description": "Webtheme admin is an gin based sub-theme.",
+  "description": "A modern administration theme for webship.co portal back-end. Based on the Gin Admin Theme and Claro Drupal core admin theme.",
   "license": "GPL-2.0",
   "private": true,
   "engines": {
@@ -17,6 +17,7 @@
     "lint:css": "npx stylelint --config=.stylelintrc.json ."
   },
   "devDependencies": {
+    "webship-js": "~1",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/register": "^7.7.7",

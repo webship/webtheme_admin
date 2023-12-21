@@ -1,9 +1,9 @@
 name: Webtheme Admin
 type: theme
 base theme: gin
-description: "A modern administration theme for webship standard websites. Based on the Gin Admin Theme and Claro Drupal core admin theme."
-alt text: "Screenshot of Webtheme Admin, Webship administration theme."
-core_version_requirement: ~10.1.0
+description: A modern administration theme for webship.co portal back-end. Based on the Gin Admin Theme and Claro Drupal core admin theme.
+alt text: Screenshot of Webtheme Admin, Webship administration theme.
+core_version_requirement: ~10.2.0
 
 libraries:
   - webtheme_admin/global-admin-styling
